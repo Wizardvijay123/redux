@@ -49,6 +49,18 @@ const Sidebar: React.FC = () => {
             Settings
           </NavLink>
         </li>
+
+        {/* ✅ New menu item */}
+        <li>
+          <NavLink
+            to="/form-demo"
+            className={({ isActive }) =>
+              isActive ? "menu-link active" : "menu-link"
+            }
+          >
+            Form Demo
+          </NavLink>
+        </li>
       </ul>
     </aside>
   );

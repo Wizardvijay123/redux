@@ -6,6 +6,7 @@ import Dashboard from "./pages/dashbord";
 import Profile from "./pages/profile";
 import Projects from "./pages/projects";
 import Settings from "./pages/settings";
+import FormDemo from "./pages/formdemo";
 import "./App.css";
 
 const App: React.FC = () => {
@@ -20,6 +21,7 @@ const App: React.FC = () => {
           <Route path="/profile" element={<Profile />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/settings" element={<Settings />} />
+          <Route path="/form-demo" element={<FormDemo />} /> 
           {/* Optional: 404 fallback */}
           {/* <Route path="*" element={<h1>Page Not Found</h1>} /> */}
         </Routes>
