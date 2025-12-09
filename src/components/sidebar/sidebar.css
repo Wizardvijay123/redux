@@ -1,0 +1,48 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #020617;
+  color: white;
+  position: fixed;
+  top: 60px; /* below header */
+  left: 0;
+  padding: 24px 16px;
+}
+
+.menu-title {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #38bdf8;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin-bottom: 8px;
+}
+
+/* Links inside sidebar */
+.menu-link {
+  display: block;
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 15px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.menu-link:hover {
+  background: #1e293b;
+}
+
+/* Active route */
+.menu-link.active {
+  background: #1d4ed8;
+  color: #ffffff;
+  font-weight: 600;
+}
